@@ -1,0 +1,56 @@
+.movie {
+  float: left;
+  width: 800px;
+  height: 345px;
+  margin: 50px;
+  position: relative;
+}
+
+.page {
+  float: left;
+  width: 800px;
+  height: 300px;
+  margin: 50px;
+  background-color: #f1f2f6;
+  box-shadow: 5px 5px 15px 5px gray;
+}
+
+img {
+  float: left;
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  width: 200px;
+  height: 300px;
+  box-shadow: 5px 5px 15px 5px gray;
+}
+
+.movie__data {
+  float: right;
+  width: 530px;
+  height: 300px;
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+.movie__title {
+  font-size: 2rem;
+  margin: 20px 0 10px 0;
+}
+
+.movie__genres {
+  margin: 10px 0;
+  color: #747d8c;
+}
+
+.movie__rating {
+  margin: 0;
+  color: #747d8c;
+}
+
+.movie__summary {
+  overflow: hidden;
+  height: 110px;
+  color: #747d8c;
+  margin: 10px 0;
+}
