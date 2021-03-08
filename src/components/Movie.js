@@ -26,7 +26,7 @@ function Movie({id, year, rating, title, summary, poster, genres}) {
                     ))}</ul> */}
                     <h5 className="movie__genres">{genres.join(", ")}</h5>
                     <h5 className="movie__rating">{rating}/10</h5>
-                    <p className="movie__summary">{summary.slice(0, 220)}...</p>
+                    <p className="movie__summary">{summary.slice(0, 100)}...</p>
                 </div>
             </div>
         </div>

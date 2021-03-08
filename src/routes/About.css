@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .about__container {
   font-size: 30px;
   width: 700px;
@@ -10,6 +19,7 @@
   background-color: azure;
   padding: 20px;
   box-shadow: 10px 10px 10px gray;
+  animation: fadeIn 0.5s linear;
 }
 
 span {
