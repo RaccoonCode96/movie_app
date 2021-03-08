@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  margin: 5px;
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  background-color: #f1f2f6;
+  width: 90px;
+  text-align: center;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.buttons {
+  position: absolute;
+  top: 103px;
+  left: 0px;
+}

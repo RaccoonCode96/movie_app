@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.about__container {
+  font-size: 30px;
+  width: 700px;
+  height: 200px;
+  margin: 30vh auto;
+  background-color: azure;
+  padding: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+span {
+  display: block;
+}

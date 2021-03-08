@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.detail {
+  margin-left: 100px;
+  height: 920px;
+}
+
+.detail__page {
+  float: right;
+  width: 85vw;
+  height: 700px;
+  margin: 100px;
+  background-color: #f1f2f6;
+  box-shadow: 5px 5px 15px 5px gray;
+}
+
+.detail__img {
+  float: left;
+  width: 500px;
+  height: 700px;
+  margin: 0px;
+  box-shadow: 5px 5px 15px 5px gray;
+}
+
+.detail__data {
+  float: right;
+  width: 800px;
+  height: 300px;
+  font-size: 1.4rem;
+  margin-right: 200px;
+}
+
+.detail__title {
+  font-size: 2.3rem;
+  margin: 20px 0 10px 0;
+  color: black;
+}
+
+.detail__genres {
+  margin: 10px 0;
+  color: #747d8c;
+}
+
+.detail__year {
+  margin: 10px 0;
+  color: #747d8c;
+}
+
+.detail__rating {
+  margin: 0;
+  color: #747d8c;
+}
+
+.detail__summary {
+  overflow: hidden;
+  height: 300px;
+  color: #747d8c;
+  margin: 10px 0;
+}

@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.page {
+.movie__page {
   float: left;
   width: 800px;
   height: 300px;
@@ -15,7 +15,7 @@
   box-shadow: 5px 5px 15px 5px gray;
 }
 
-img {
+.movie__img {
   float: left;
   position: absolute;
   top: 20px;
@@ -36,6 +36,7 @@ img {
 .movie__title {
   font-size: 2rem;
   margin: 20px 0 10px 0;
+  color: black;
 }
 
 .movie__genres {
